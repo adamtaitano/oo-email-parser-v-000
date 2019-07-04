@@ -6,6 +6,6 @@ class EmailParser
   end
 
   def parse
-    split = @emails.split(/, | /).uniq
+    @emails.split(/, | /).uniq
   end
 end
